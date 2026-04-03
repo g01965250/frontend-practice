@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 60px 1fr 60px;
+}
+header {
+  background-color: aquamarine;
+}
+
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.sidebar {
+  background-color: bisque;
+}
+.main-content {
+  background-color: red;
+}
+footer {
+  background-color: aquamarine;
+}
